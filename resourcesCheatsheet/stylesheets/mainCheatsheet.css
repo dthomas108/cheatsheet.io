@@ -1,0 +1,80 @@
+body {
+    background-color: lavender;
+}
+h1 {
+   padding-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
+table, th, td, caption {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table {
+    margin-bottom: 40px;
+}
+td {
+    height: 30px;
+}
+thead, th {
+    width: 25%;
+}
+caption {
+    font-size: 30px;
+    color: darkblue;
+    height: 40px;
+    font-style: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background: radial-gradient(aliceblue, skyblue);
+    background-repeat: no-repeat;
+}
+.headings {
+	font-size: 20px;
+    text-transform: uppercase;
+    color: darkblue;
+    background-color: beige;
+}
+.property {
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+}
+.accepted-values {
+    padding-left: 30px;
+    background-color: aliceblue;
+}
+.function {
+    padding-left: 30px;
+    background-color: aliceblue;
+}
+li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.navigation {
+    background-color: aliceblue;
+    overflow: hidden;
+    float: right;
+    width: 100%;
+}
+.bottom {
+    border-top: solid 1px;
+}
+.top {
+    border-bottom: solid 1px;
+    
+}
+.navigation a {
+color:darkblue;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+}
+.navigation a:hover {
+   text-decoration: underline;
+    color: blueviolet;
+}
